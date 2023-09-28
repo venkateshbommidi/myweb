@@ -1,0 +1,38 @@
+[root@ip-172-31-44-183 ec2-user]# history
+1 ps
+2 ps -elf
+3 bg
+4 fg
+5 ps -ef | grep smon
+6 ps -ef | grep pmon
+7 isotat
+8 iostat
+9 vmstat
+10 free -m
+11 uptime
+12 netstat
+13 netstat -nr
+14 yum install -y httpd
+15 service httpd start
+16 netstat -ntlp
+17 service httpd stop
+18 netstat -ntlp
+19 service httpd start
+20 netstat -ntlp
+21 sar
+22 top
+23 top
+24 top
+25 top
+26 kill -l
+27 ps -ef | grep httpd
+28 kill -9 3584
+29 service httpd status
+30 netstat -ntlp
+31 service httpd start
+32 netstat -ntlp
+33 history
+[root@ip-172-31-44-183 ec2-user]#
+
+Enter your message
+To:

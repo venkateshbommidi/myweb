@@ -1,0 +1,25 @@
+ yum install -y java-1.8.0-openjdk-devel.x86_64
+ yum install -y git
+ git clone https://github.com/srinivas1987devops/myweb.git
+ sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+  sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+ sudo yum install -y apache-maven
+ mvn clean package
+
+   10  ls
+
+   11  cd myweb/
+   12  ls
+
+   13  mvn clean package
+
+   14  ls
+
+   15  cd target/
+
+   16  ls
+   17  history
+
+
+
+ mvn --version
